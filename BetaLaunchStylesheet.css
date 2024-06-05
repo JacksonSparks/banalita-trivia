@@ -1,0 +1,25 @@
+@import "BetaLaunchHeader.css";
+@import "BetaLaunchMain.css";
+@import "BetaLaunchClasses.css";
+@import "BetaLaunchFooter.css";
+@import "BetaLaunchPrompts.css";
+
+body {
+    line-height: 1.5rem;
+    font-weight: 400;
+    height: 100%;
+    background-color: var(--bluish-gray);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#body-inner {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+

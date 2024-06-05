@@ -1,0 +1,232 @@
+#main-body-howto-prompt {
+    position: relative;
+}
+
+#howto-prompt-dialog {
+    position: fixed;
+    top: 2.5rem;
+    z-index: 10;
+    margin-top: 1.5rem;
+    width: 100vw;
+    overflow-y: auto;
+    max-height: 70vh;
+    background-color: transparent;
+    padding: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#howto-prompt-dialog:focus {
+    outline: none;
+    border: none;
+}
+
+#howto-prompt-container {
+    position: relative;
+    padding: 1rem 1.5rem;
+    max-width: 42rem;
+    width: auto;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.2s;
+    text-align: left;
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#howto-prompt-container-body-inner {
+    /*margin-top: 1.25rem;*/
+    text-align: left;
+}
+
+#howto-prompt-container-body-inner-inner {
+    color: black;
+}
+
+#how-to-play-title {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    margin: 0 0 1rem 0;
+    text-transform: capitalize;
+    border-bottom: 0.25rem dashed;
+    font-weight: 600;
+    padding-bottom: 0.25rem;
+}
+
+#howto-prompt-container-body-inner-inner ol {
+    /*padding-left: 1rem;*/
+    /*margin-bottom: 1rem;*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#howto-start {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#howto-start-header {
+    font-weight: 700;
+    text-align: left;
+    min-width: 5rem;
+}
+
+#howto-start-desc {
+    flex: 1 1 0;
+}
+
+#howto-start-desc p {
+    margin: 0;
+}
+
+.howto-start-desc-prompt {
+    color: black;
+    font-style: italic;
+    margin: 0;
+}
+
+#howto-guess {
+    display: flex;
+    margin-bottom: 0.5rem;
+    column-gap: 0.5rem;
+}
+
+#howto-guess-header {
+    font-weight: 700;
+    text-align: left;
+    min-width: 5rem;
+}
+
+#howto-guess-desc {
+    flex: 1 1 0;
+}
+
+#howto-guess-desc p {
+    margin: 0;
+}
+
+#howto-guess-desc p:nth-of-type(2) {
+    margin: 0;
+}
+
+#howto-guess-ways {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+#howto-guess-ways strong {
+    font-weight: bolder;
+}
+
+#howto-points {
+    display: flex;
+    margin-bottom: 0.5rem;
+    column-gap: 0.5rem;
+}
+
+#howto-points-header {
+    font-weight: 700;
+    text-align: left;
+    min-width: 5rem;
+}
+
+#howto-points-desc {
+    flex: 1 1 0;
+}
+
+#howto-points-desc ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+#howto-points-desc ol li {
+    margin-left: 25px;
+}
+
+#howto-points-span ul, #howto-etc-span ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#howto-points-span ul li, #howto-etc-span ul li {
+    margin-left: 50px;
+}
+
+.howto-italicized {
+    font-style: italic;
+}
+
+#howto-strikes {
+    display: flex;
+    margin-bottom: 0.5rem;
+    column-gap: 0.5rem;
+}
+
+#howto-strikes-header {
+    font-weight: 700;
+    text-align: left;
+    min-width: 5rem;
+}
+
+#howto-strikes-desc {
+    flex: 1 1 0;
+}
+
+#howto-strikes-desc ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+#howto-strikes-desc ol li {
+    margin-left: 25px;
+}
+
+#howto-prompt-container-body-inner-inner ul {
+    /*padding-left: 1.5rem;*/
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+#howto-game {
+    display: flex;
+    margin-bottom: 0.5rem;
+    column-gap: 0.5rem;
+}
+
+#howto-game-header {
+    font-weight: 700;
+    text-align: left;
+    min-width: 5rem;
+}
+
+#howto-game-desc {
+    flex: 1 1 0;
+}
+
+#howto-game-desc ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+#howto-game-desc ol li {
+    margin-left: 25px;
+}
+
+#howto-game-desc p {
+    margin: 0 0 0 25px;
+}
