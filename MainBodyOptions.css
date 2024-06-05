@@ -1,0 +1,105 @@
+#main-body-options-inner {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    gap: 1.25rem;
+}
+
+.main-body-options-option {
+    height: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-body-options-option-inner {
+    border-radius: 0.5rem;
+}
+
+.main-body-options-inner-content {
+    flex: 1 1 0%;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.main-body-options-checkmark {
+    object-fit: cover;
+    height: 6rem;
+    width: 6rem;
+    margin: auto;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    max-width: 100%;
+    fill: green;
+    display: block;
+}
+
+.main-body-options-inner-content p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+    flex: none;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
+
+.main-body-options-x {
+    object-fit: cover;
+    height: 6rem;
+    width: 6rem;
+    margin: auto;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    max-width: 100%;
+    fill: #8B3A3A;
+}
+
+
+.main-body-options-option-inner {
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    overflow: hidden;
+    transition: box-shadow 0.1s ease-in-out, transform 0.1s ease-in-out, margin 0.1s ease-in-out, height 0.25s ease-in-out, background-color 0.1s ease-in-out;
+    box-shadow: 0 0 0 3px black, 1px 1px 0 3px black, 2px 2px 0 3px black, 3px 3px 0 3px black, 4px 4px 0 3px black;
+}
+
+
+.main-body-options-option-inner p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+    flex: none;
+    background-color: var(--darkish-blue);
+    margin: 0 auto;
+}
+
+
+.main-body-options-logo {
+    display: block;
+    object-fit: contain;
+    width: 6rem;
+    height: 6rem;
+    margin: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}

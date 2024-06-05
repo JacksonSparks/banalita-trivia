@@ -1,0 +1,41 @@
+@import "FooterContent.css";
+
+footer {
+    background-color: #082430;
+    border-top-color: #082430;
+    border-top-width: 1px;
+    display: block;
+}
+
+#footer-inner {
+    padding: 1rem 1.5rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#footer-inner-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    color: white;
+}
+
+@media (min-width: 1024px) {
+    #footer-inner {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #footer-inner {
+        padding-top: 1.5rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+}
+
+
